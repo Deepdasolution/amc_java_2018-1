@@ -4,7 +4,6 @@ public class main{
 		try {
             //here you can put the selected theme class name in JTattoo
             UIManager.setLookAndFeel("com.jtattoo.plaf.mcwin.McWinLookAndFeel");
-
 		} catch (ClassNotFoundException ex) {
 		    java.util.logging.Logger.getLogger(Main_Window.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
 		} catch (InstantiationException ex) {
@@ -14,6 +13,7 @@ public class main{
 		} catch (javax.swing.UnsupportedLookAndFeelException ex) {
 		    java.util.logging.Logger.getLogger(Main_Window.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
 		}
-
+    //hello dipak
 		}
+	}
 }
